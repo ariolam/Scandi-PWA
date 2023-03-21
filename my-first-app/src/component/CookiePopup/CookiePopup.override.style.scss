@@ -4,25 +4,28 @@
     background-color: #1d1b1b;
     width: 100%;
     padding: 32px;
+    margin-block-end: -9px;
 }
 
 .CookiePopup-Content {
-    width: 70%;
-    font-size: 18px;
+    font-size: 22px;
     text-align: start;
+    line-height: 1.2;
+    width: 90%;
 }
 
 .CookiePopup-Link {
-    font-size: 18px;
+    font-size: 22px;
     cursor: pointer;
 }
 
 .CookiePopup-CTA {
-    width: 10%;
+    width: 20%;
     text-align: center;
     padding: 20px;
     background-color: var(--primary-base-color);
     color: white;
+    font-size: 18px;
 }
 
 .CookiePopup-CTA:hover {
@@ -38,19 +41,22 @@
         display: flex;
         flex-direction: column;
         padding: 7px;
+        margin: auto;
+        margin-block-end: -9px;
     }
 
     .CookiePopup-Content {
-        font-size: 15px;
+        font-size: 18px;
         margin-block-start: 10px;
     }
 
     .CookiePopup-Link {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .CookiePopup-CTA {
-        min-width: 150px;
+        width: 90%;
         margin-block-start: 20px;
+        padding: 12px;
     }
 }
